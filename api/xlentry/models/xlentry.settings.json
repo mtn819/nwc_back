@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "xlentries",
+  "info": {
+    "name": "xlentry"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "data": {
+      "type": "json"
+    }
+  }
+}
