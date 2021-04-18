@@ -1,3 +1,6 @@
 # Strapi application
 
-A quick description of your strapi application
+Still in development.
+
+The csv upload example is in functions/bootstrap.js
+
