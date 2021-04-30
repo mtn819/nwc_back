@@ -13,6 +13,7 @@
   "devDependencies": {},
   "dependencies": {
     "dotenv": "^8.2.0",
+    "mongoose": "^5.12.7",
     "strapi": "3.6.1",
     "strapi-admin": "3.6.1",
     "strapi-connector-mongoose": "3.6.1",
