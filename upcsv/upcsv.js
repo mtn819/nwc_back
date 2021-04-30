@@ -3,6 +3,8 @@ const fs = require("fs");
 const mongoose = require("mongoose");
 
 const mapKey = (key) => {
+  if(key === "_id") return key;
+
   return key
     .replace(/[.^]/g, "_id")
     .replace(/[^\w]/g, '');
